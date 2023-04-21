@@ -4,11 +4,15 @@
     --logo-color: #000000;
     --accent-color: #2196F3;
     --background-color: #FFFFFF;
+    --hero-background: #2F303A;
 }
 
 body{
     color: var(--primary-text-color);
     background-color: var(--background-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    initial-letter: 0,03em;
 }
 a {
     text-decoration: none;
@@ -16,23 +20,66 @@ a {
 ul {
     list-style: none;
 }
+
+/* header */
 .logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    
     color: var(--accent-color);
 }
+
 .logo > span {
     color: var(--logo-color);
 }
-.nav-link{color: var(--primary-text-color);}
-.nav-link:hover,.nav-link:focus{
+
+.nav-link,.contacts-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.nav-link{
+    color: var(--primary-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus{
    color: var(--accent-color);
 }
 
- .contacts-link{
+.contacts-link{
     color: var(--secondary-text-color);
 } 
 
-.contacts-link:hover,
-.contacts-link:focus{
-    color: var(--accent-color);
-}  
+/* hero */
+.hero{
+ background-color: var(--hero-background);
+}
 
+h1{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: var(--background-color);
+}
+
+.hero-button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    
+    color: var(--background-color);
+    background-color: var(--accent-color);
+}
