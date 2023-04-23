@@ -44,7 +44,7 @@ ul {
 
 .nav-link{
     color: var(--primary-text-color);
-}
+} 
 
 .nav-link:hover,
 .nav-link:focus,
@@ -82,4 +82,48 @@ h1{
     
     color: var(--background-color);
     background-color: var(--accent-color);
+}
+
+.h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: var(--secondary-text-color);
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.name{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.job{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: var(--secondary-text-color);
+}
+
+address{
+    font-style: normal;
 }
