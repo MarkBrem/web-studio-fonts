@@ -123,9 +123,45 @@ h1{
 }
 
 address{
-    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+
+    color: var(--background-color);
+   
 }
 
-footer{
+.footer{
     background-color: var(--hero-background);
+}
+
+.footer .logo > span{
+    color: var(--background-color);
+}
+
+.footer .contacts-link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio */
+
+.job-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+
+    color: var(--primary-text-color);
+}
+
+.job-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: var(--secondary-text-color);
 }
